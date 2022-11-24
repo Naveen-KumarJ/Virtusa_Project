@@ -1,0 +1,101 @@
+*{
+    font-family: sans-serif;
+    
+}
+
+body{
+    background-color: rgb(1, 51, 96);
+    background-size: cover;
+    min-height:100vh;
+    display: flex;
+}
+
+.container{
+    height:100vh; 
+    display:grid;
+    height: fit-content;
+    width: fit-content;
+    margin-top:250px;
+    margin-left:600px;
+    
+
+}
+.buttons{
+    background-color: aliceblue;
+    border-radius:20px;
+    padding:10px;
+    box-shadow:5px 5px 15px rgb(81, 81, 80);
+    display:grid;  
+    grid-template-columns: repeat(4,50px);  
+    margin-top:8px; 
+       
+
+}
+.display{
+    background-color: aliceblue;
+    border-radius:10px;
+    padding:10px;
+    box-shadow:5px 5px 15px rgb(81, 81, 80); 
+    display:grid;
+    border:none;
+    border-radius:20px;
+}
+.field{
+    box-shadow:5px 5px 10px rgb(81, 81, 80);
+    border-radius:5px;
+    border:none;
+    font-size:15px;
+    text-align:end;
+    margin-top:5px;
+    padding:4px;
+}
+.btn{
+    height:40px;
+    width:48px;
+    border:none;
+    border-radius:50%;
+    box-shadow: inset 1px 1px 2px rgb(105, 105, 105) ;
+    padding:8px;
+    
+   margin-top:15%;
+   margin-left:10%;
+   margin-right:10%;
+
+   font-size:12px;
+   font-weight:bold;
+}
+input:hover{
+    background-color:azure;
+}
+
+#input{
+    margin-top:20px;
+  
+    font-family:"digital-7";
+    font-size: medium;
+    padding-left: 20%;
+    font-weight: bold;
+}
+#output{
+    
+    font-family:"digital-7";
+    font-size: medium;
+    padding-left: 20%;
+    font-weight: bold;
+}
+
+.btn-equal{
+    height:40px;
+    width:100px;
+    border:none;
+    border-radius:30%;
+    box-shadow: inset 1px 1px 2px rgb(105, 105, 105) ;
+    padding:8px;
+    
+   margin-top:15%;
+   margin-left:10%;
+   margin-right:10%;
+
+   font-size:12px;
+}
+

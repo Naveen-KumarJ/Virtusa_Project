@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do list</title>
+</head>
+<body>
+    <input type="number" #roll_no >
+    <br>
+    <br>
+    <input type="text" #name >
+    <br>
+    <br>
+    <button (click)="addInfo(roll_no.value,name.value)">submit</button>
+    
+
+    <ul *ngFor="let candidates of students_list">
+        <li>{{candidates.id}} {{candidates.name}}</li>
+        <button (click)="deleteIt(candidates.id)">Remove</button>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+    min-height: 100vh;
+    background-color: rgb(1, 51, 96); 
+    background-size: cover;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.input-box{
+    font-family:"digital-7";
+    font-weight: bold;
+    margin-left:5px;
+    box-shadow:  1px 1px 3px cadetblue;
+    height:25px;
+    width: 200px;
+}
+.option{
+   background-color:cadetblue;
+    margin-left:2px;
+    height:25px;
+    width: 50px;
+}
+
+.convert-butt{
+    margin-top:10px;
+    box-shadow:  1px 1px 3px cadetblue;
+    
+    
+}

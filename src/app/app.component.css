@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction:column;   
+}
+.link{
+    margin-bottom:6px;
+}

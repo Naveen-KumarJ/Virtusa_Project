@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+</head>
+<body>
+  <h1>{{solution|date: 'hh mm ss'}}</h1>
+  <div class="header">
+    <div class="link">
+      <a routerLink="comp1">Calculator</a>
+    </div>
+    <div class="link">
+      <a routerLink="comp2">Currency_Convertor</a>
+    </div>
+    <div class="link">
+      <a routerLink="Date_time">Current_Date_Time</a>
+    </div>
+    <div class="link">
+      <a routerLink="uc_lc">Upper_case - Lower_case</a>
+    </div>
+    <div class="link">
+      <a routerLink="drop-down">Drop-down</a>
+    </div>
+    <div class="link">
+      <a routerLink="form">form_validation</a>
+    </div>
+    <div class="link">
+      <a routerLink="++--">Increment_Decrement</a>
+    </div>
+    <div class="link">
+      <a routerLink="to_do_list">To do list</a>
+    </div>
+    <div >
+      <app-child [item]="randnum"></app-child>
+      <button (click)="updateNum()">update</button>
+    </div>
+  </div>
+    <router-outlet></router-outlet>
+</body>
+</html>
+
+
